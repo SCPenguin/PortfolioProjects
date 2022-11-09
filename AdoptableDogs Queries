@@ -88,3 +88,5 @@ SELECT breed_primary, age, COUNT(breed_primary) AS count
 FROM AdoptableDogs..allDogDescriptions
 WHERE age LIKE 'Young' AND breed_primary LIKE 'Beagle'
 GROUP BY breed_primary, age
+
+
